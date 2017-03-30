@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign In</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <!--        bootstrap files-->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <!--header-->
+        <div class="container-fluid text-center header">
+            <h1>Company</h1>
+        </div>
+        <!--form-->
+        <div class="container text-center" id="loginform">
+            <div class="container-fluid" id="signinwithfb">
+                <button  type="button" class="btn btn-default col-xs-12" id="signinwithfb-btn"><a href="#">LOGIN WITH FACEBOOK</a></button>
+                <p style="margin-top: 10px">OR</p>
+            </div>
+            <form action="../profile/index.html">
+                <div class="form-group ">
+                    <input type="text" class="form-control" id="fname" placeholder="Username or email address">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="lname" placeholder="Password">
+                </div>
+                <div class="row">
+                    <div class="checkbox col-xs-4" id="rememberme">
+                        <label><input type="checkbox" class="css-checkbox"> Remember me</label>
+                    </div>
+                    <a href="../profile/index.html"><button type="submit" class="btn btn-default col-xs-6 pull-right" id="signin-btn">LOG IN</button></a>
+                </div>
+            </form>
+            <div id="additional">
+                <a href="#">Forgot your username or password?</a>
+                <p>Don't have an account? <a href="#">Sign Up</a></p>
+            </div>
+        </div>
+        <div>
+            <footer>
+                <p id="footer">If you click "Log in with Facebook" and are not a Company user, 
+                    you will be registered and you agree to Company's 
+                    <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+            </footer>
+        </div>
+    </body>
+</html>

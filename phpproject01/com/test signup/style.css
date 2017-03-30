@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/*
+    Created on : 19 Mar, 2017, 9:45:55 PM
+    Author     : charchitjd
+*/
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+}
+
+.error {
+    margin-right: 100px;
+    color: #FF0000;
+}
+
+#err {}
+
+.header {
+    height: 110px;
+    margin: auto;
+    border-bottom: 1px solid #d9dadc;
+}
+
+.signupform {
+    min-width: 500px;
+    width: 35%;
+    margin: auto;
+}
+
+h4 {
+    padding-bottom: 10px;
+}
+
+#signupwithfb-btn {
+    background-color: #3b5998;
+    height: 35px;
+    color: #fff;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#signupwithfb-btn:hover {
+    background-color: #4267b2;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+#signupwithfb {
+    margin: 30px;
+    border-bottom: 1px solid #d9dadc;
+    margin-bottom: 20px;
+}
+
+#shareinfo {
+    color: #b6b6b6;
+    font-size: 12px;
+    text-align: left;
+}
+
+#termscondition {
+    font-size: 12px;
+    text-align: left;
+}
+
+#termscondition a {
+    color: #2ebd59;
+    text-decoration: none;
+}
+
+#termscondition a:hover {
+    color: #36d867;
+}
+
+#signup-btn {
+    background-color: #2ebd59;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#signup-btn:hover {
+    background-color: #36d867;
+}
+
+#accountexist a {
+    color: #2ebd59;
+    text-decoration: none;
+}
+
+#accountexist a:hover {
+    color: #36d867;
+}

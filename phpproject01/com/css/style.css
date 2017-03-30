@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Mar, 2017, 9:28:05 PM
+    Author     : charchitjd
+*/
+/*navigation bar*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8;
+    position: relative; 
+}
+
+.custom-navbar {
+    background-color: rgba(0,0,0,0.5);
+    height: 50px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.custom-navbar.opaque {
+    background-color: black;
+    height: 50px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.nav a:hover { 
+    color: #fff !important; 
+}
+
+ul.nav a:active { 
+    color: #010101 !important; 
+}

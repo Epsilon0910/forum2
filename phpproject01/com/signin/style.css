@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Mar, 2017, 9:45:55 PM
+    Author     : charchitjd
+*/
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+}
+
+.header{
+    height:110px;
+    margin: auto;
+    border-bottom:1px solid #d9dadc;
+}
+
+#signinwithfb{
+    margin: 30px;
+}
+
+#signinwithfb-btn{
+    background-color: #3b5998;
+    height: 35px;
+    color: #fff;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#signinwithfb-btn:hover{
+    background-color:#4267b2;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+#signinwithfb{
+    border-bottom:1px solid #d9dadc;
+}
+
+#loginform{
+    width: 35%;
+    margin: auto;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+#rememberme{
+    text-align: left;
+}
+
+.pull-right{
+    margin-right: 15px;
+}
+
+#signin-btn{
+    background-color: #2ebd59;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#signin-btn:hover{
+    background-color: #36d867;
+}
+
+#additional{
+    line-height: 25px;
+    margin: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #d9dadc;
+}
+#additional a{
+    color: #2ebd59;
+    text-decoration: none;
+}
+#additional a:hover{
+    color: #36d867;
+}
+
+footer{
+    width: 30%;
+    margin: auto;
+    margin-top: 0px;
+    font-size: 10px;
+    color: #b6b6b6;
+}
+footer p a{
+    color: #2ebd59;
+    text-decoration: none;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer a:hover{
+    color: #36d867;
+}
